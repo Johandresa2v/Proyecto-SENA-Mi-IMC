@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1css.css">
+    <title>Document</title>
+
+    <script type="text/javascript">
+        function sumar(){
+            var num1 = document.getElementById('num1').value;
+            var num2 = document.getElementById('num2').value;
+
+            if (num1 == ''){
+                num1 = 0;
+            }
+
+            if (num2 == ''){
+                num2 = 0;
+            }
+
+            var sumar = parseInt(num1) + parseInt(num2);
+
+            document.getElementById('resultado').value = sumar;
+
+        }
+    </script>
+
+
+
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="columna">
+            <iframe   src="https://www.youtube.com/embed/ZUIcgdd7xx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe   src="https://www.youtube.com/embed/ZUIcgdd7xx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe   src="https://www.youtube.com/embed/ZUIcgdd7xx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+    <form action="" method="post">
+        <h4>Digite el primer número</h4>
+        <input type="number" name="num1" id="num1" onkeyup="sumar();">
+
+        <h4>Digite el segundo número</h4>
+        <input type="number" name="num2" id="num2" onkeyup="sumar();">
+
+        <h4>El resultado es: </h4>
+        <input type="number" name="resultado" id="resultado" readonly>
+    </form>
+    
+</body>
+</html>
