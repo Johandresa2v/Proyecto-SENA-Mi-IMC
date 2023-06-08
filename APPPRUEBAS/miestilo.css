@@ -206,14 +206,21 @@ y verticalmente con flexbox*/
 /*YOUTUBE*/
 .sectionyoutube{
     flex: 100%;
-    display: flex;
+    display: grid;
     justify-items: center;
-    align-items: center;
+    align-items: center;   
     background-color: white;
-    padding: 20px;
-    height: 315px;
+    padding-top: 20px;
     padding-left: 1%;
     padding-right: 1%;
+}
+
+.section4{
+    flex: 60%;
+    background-color: rgb(253, 248, 231);
+    padding: 20px;
+    border: rgb(255, 255, 255) 20px solid;
+    height: 450px auto;
 }
 
 .sectionyoutube1{
@@ -228,8 +235,6 @@ y verticalmente con flexbox*/
     display: flex;
     justify-items: center;
     align-items: center;
-    background-color: rgb(206, 21, 21);
-    
     height: 450px auto;
     width: 395px;   
 }
@@ -237,8 +242,7 @@ y verticalmente con flexbox*/
     flex: auto;
     flex-wrap: wrap;
     height: 250px;
-    background-color: #efefef;
-    
+    background-color: white;
 }
 
 .videoyoutube{
@@ -264,6 +268,9 @@ p{
     text-align: justify;
 }
 
+li {
+    text-align: justify;
+}
 
 /*CSS sección de calculadora IMC*/
 
@@ -431,7 +438,7 @@ footer{
         display: flex;
         justify-items: center;
         align-items: center;
-        background-color: rgb(206, 21, 21);
+        background-color: white;
         padding-left: 1%;
         padding-right: 1%;
         padding-bottom: 1%;
@@ -526,43 +533,16 @@ footer{
     
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
 
-    .section1{
-        flex: 60%;
-        background-color: rgb(253, 248, 231);
-        padding: 20px;
-        border: rgb(255, 255, 255) 0px solid;
-        height: 450px auto;
-    }
-
-    .section2calc{
-        flex: 40%;
+    .boxyoutube{
+        flex: 45%;
         display: flex;
         justify-items: center;
         align-items: center;
-        background-color: red;
-        padding: 0px;
-        height: 450px; 
+        height: 450px auto;
+        width: 395px;   
     }
-
-    
-
-    /*cuadro de calculadora*/
-    input[type=text] {
-        padding: 4px 10px;
-        margin: 8px 0;
-        box-sizing: border-box;
-      }
-    
-    select {
-        padding: 6px 10px;
-        margin: 8px 0;
-        box-sizing: border-box;
-      }
-    
-    
-}
 
 
 @media screen and (max-width: 860px) {
@@ -571,7 +551,7 @@ footer{
         display: flex;
         justify-items: center;
         align-items: center;
-        background-color: rgb(206, 21, 21);
+        background-color: white;
         padding-left: 1%;
         padding-right: 1%;
         padding-bottom: 1%;
@@ -582,7 +562,7 @@ footer{
         
         flex-wrap: wrap;
         height: 350px;
-        background-color: #efefef;
+        background-color: white;
         
     }
     

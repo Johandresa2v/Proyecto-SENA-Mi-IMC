@@ -1,0 +1,20 @@
+
+1. video de etica.
+2. subir 3 actividad.
+3. Completar la 2 secciones de la pagina 
+4. mirar las 5 actividades pendientes 
+
+
+
+
+el contenido de la pagina de ejercicio esta en el documento de word dentro del proyecto.
+es el primer link
+
+realiza la grid de la seccion de youtube
+
+vuelve section en la grid principales
+
+luego a videoyoutube debes darle un tamaño y adaptarlo a las columnas fraccionados y
+dale al tercer video el ancho completo
+
+hazlo responsive 
