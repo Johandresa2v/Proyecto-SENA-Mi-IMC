@@ -40,8 +40,6 @@
             <nav>
                 <ul id="menuList">
                     <li><a href="../APPPRUEBAS/PRINCIPAL.html">Inicio</a></li>
-                    <li><a href="">¿Soporte Técnico?</a></li>
-                    <li><a href="">¿Como se usa?</a></li>
                     <li><a href="">Contáctenos</a></li>
                     <li><a href="../registro.html">Crear administrador</a></li>
                 </ul>
@@ -170,6 +168,35 @@
                     </div>  
             </div>
 
+            <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../imgapp/LOGO JOHAN.png" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>TODO SOBRE JOHAN DEVELOPER</h2>
+                <p>Si te gusto esta pagina web comunícate por aquí:</p>
+                <p><a href="mailto:jhoandres.a2v@gmail.com?Subject=Interesado%20en%20sus%20servicios" class="fa fa-envelope iconosblancos"></a>&nbsp; jhoandres.a2v@gmail.com</p>
+                <p><a href="#" class="fa fa-phone iconosblancos"></a> +57 3196988077</p>
+            </div>
+            <div class="box">
+                <h2>SÍGUEME</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/jhoanandres.almeidavelandia/" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/johandres.v/" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                    <a href="https://wa.me/573196988077" class="fa fa-whatsapp"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Johan Almeida</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
 
     <!--TODOS LOS SCRIPT NECESARIOS PARA EL FUNCIONAMIENTO DE LA PAGINA-->
             <!--Bootstrap JS-->
