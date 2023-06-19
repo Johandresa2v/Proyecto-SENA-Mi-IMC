@@ -64,18 +64,18 @@
             <div class="modal-content">
                     <div class="modal-header">
                         <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresar Alumno</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="border: solid 1px #000000; background-color: rgb(231, 53, 53);"></button>
                     </div>
                     <div class="modal-body">
                         <form method="post" class="mb-8" action="insertar.php" id="formulario" enctype="multipart/form-data">
                             <div class="modal-content">
                                 
                                 
-                                    <input type="text" class="form-control mb-7" name="dni" placeholder="Dni" autocomplete="off">
+                                    <input type="number" class="form-control mb-3" name="dni" placeholder="Dni" autocomplete="off">
                                     <input type="text" class="form-control mb-3" name="nombres" placeholder="Nombres"autocomplete="off">
                                     <input type="text" class="form-control mb-3" name="apellidos" placeholder="Apellidos"autocomplete="off">
-                                    <input type="text" class="form-control mb-3" name="altura" placeholder="Altura"autocomplete="off">
-                                    <input type="text" class="form-control mb-3" name="peso" placeholder="Peso"autocomplete="off">
+                                    <input type="number" class="form-control mb-3" name="altura" placeholder="Altura"autocomplete="off">
+                                    <input type="number" class="form-control mb-3" name="peso" placeholder="Peso"autocomplete="off">
                                     
                                     <select class="form-control mb-3" name="sexo">
                                     
@@ -84,9 +84,9 @@
                                         <option>Masculino</option>
                                     </select>
 
-                                    <input type="text" class="form-control mb-3" name="edad" placeholder="Edad"autocomplete="off">
+                                    <input type="number" class="form-control mb-3" name="edad" placeholder="Edad"autocomplete="off">
                                     <input type="text" class="form-control mb-3" name="grado" placeholder="Grado"autocomplete="off">
-                                    <input type="text" class="form-control mb-3" name="imc" placeholder="IMC"autocomplete="off">
+                                    <input type="number" class="form-control mb-3" name="imc" placeholder="IMC"autocomplete="off">
                                     
                                     
                                 
@@ -113,7 +113,7 @@
                             <div class="col-md-3">
                                 <div class="text-center">
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#ModalUsuario" id="botonCrear">
+                                    <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#ModalUsuario" id="botonCrear" style="background: linear-gradient(to right, #fbc052, #ff6b27);" >
                                         <h4>Ingresar alumno</h4> <img src="../imgapp/arrow.png">&nbsp;<i class="bi bi-plus-circle-fill"></i>
                                     </button>
                                 </div>
@@ -156,7 +156,7 @@
                                                 <th><?php  echo $row['edad']?></th>
                                                 <th><?php  echo $row['grado']?></th>
                                                 <th><?php  echo $row['imc']?></th>    
-                                                <th><a href="actualizar.php?id=<?php echo $row['dni'] ?>" class="btn btn-info">Editar</a></th>
+                                                <th><a href="actualizar.php?id=<?php echo $row['dni'] ?>" class="btn btn-success">Editar</a></th>
                                                 <th><a href="delete.php?id=<?php echo $row['dni'] ?>" class="btn btn-danger">Eliminar</a></th>                                        
                                             </tr>
                                         <?php 
@@ -172,16 +172,20 @@
         <div class="grupo-1">
             <div class="box">
                 <figure>
-                    <a href="#">
-                        <img src="../imgapp/LOGO JOHAN.png" alt="Logo de SLee Dw">
+                <a href="#">
+                        <img src="../imgapp/LOGO JOHAN.png" alt="JOHAN DEVELOPER">
                     </a>
                 </figure>
             </div>
             <div class="box">
                 <h2>TODO SOBRE JOHAN DEVELOPER</h2>
                 <p>Si te gusto esta pagina web comunícate por aquí:</p>
-                <p><a href="mailto:jhoandres.a2v@gmail.com?Subject=Interesado%20en%20sus%20servicios" class="fa fa-envelope iconosblancos"></a>&nbsp; jhoandres.a2v@gmail.com</p>
-                <p><a href="#" class="fa fa-phone iconosblancos"></a> +57 3196988077</p>
+                <p><a style="text-decoration: none;" href="mailto:jhoandres.a2v@gmail.com?Subject=Interesado%20en%20sus%20servicios" class="fa fa-envelope iconosblancos"></a>
+                    &nbsp; jhoandres.a2v@gmail.com
+                </p>
+                <p><a style="text-decoration: none;" href="#" class="fa fa-phone iconosblancos"></a>
+                    &nbsp;+57 3196988077
+                </p>
             </div>
             <div class="box">
                 <h2>SÍGUEME</h2>

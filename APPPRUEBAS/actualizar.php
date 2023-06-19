@@ -58,28 +58,59 @@ $row=mysqli_fetch_array($query);
         </div>   
     </header>
 
-    
+
+    <div class="container mt-5 justify-content-center" >
+        <form action="update.php" method="POST">                               
+            <h3>DNI</h3> <input type="hidden" name="dni" value="<?php echo $row['dni']  ?>">                               
+            <h5></h5><input type="text" class="form-control mb-3" name="dni" placeholder="Dni" value="<?php echo $row['dni']  ?>">
+            <h6>Nombres</h6><input type="text" class="form-control mb-3" name="nombres" placeholder="Nombres" value="<?php echo $row['nombres']  ?>">
+            <h6>Apellidos</h6><input type="text" class="form-control mb-3" name="apellidos" placeholder="Apellidos" value="<?php echo $row['apellidos']  ?>">
+            <h6>Altura</h6><input type="text" class="form-control mb-3" name="altura" placeholder="Altura" value="<?php echo $row['altura']  ?>">
+            <h6>Peso</h6><input type="text" class="form-control mb-3" name="peso" placeholder="Peso" value="<?php echo $row['peso']  ?>">
+            <h6>Sexo</h6><input type="text" class="form-control mb-3" name="sexo" placeholder="Sexo" value="<?php echo $row['sexo']  ?>">
+            <h6>Edad</h6><input type="text" class="form-control mb-3" name="edad" placeholder="Edad" value="<?php echo $row['edad']  ?>">
+            <h6>Grado</h6><input type="text" class="form-control mb-3" name="grado" placeholder="Grado" value="<?php echo $row['grado']  ?>">
+            <h6>Imc</h6><input type="text" class="form-control mb-3" name="imc" placeholder="Imc" value="<?php echo $row['imc']  ?>">
+            <input type="submit" class="btn btn-primary btn-block" value="Actualizar">
+        </form>            
+    </div>
+    <br>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                <a href="#">
+                        <img src="../imgapp/LOGO JOHAN.png" alt="JOHAN DEVELOPER">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>TODO SOBRE JOHAN DEVELOPER</h2>
+                <p>Si te gusto esta pagina web comunícate por aquí:</p>
+                <p><a style="text-decoration: none;" href="mailto:jhoandres.a2v@gmail.com?Subject=Interesado%20en%20sus%20servicios" class="fa fa-envelope iconosblancos"></a>
+                    &nbsp; jhoandres.a2v@gmail.com
+                </p>
+                <p><a style="text-decoration: none;" href="#" class="fa fa-phone iconosblancos"></a>
+                    &nbsp;+57 3196988077
+                </p>
+            </div>
+            <div class="box">
+                <h2>SÍGUEME</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/jhoanandres.almeidavelandia/" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/johandres.v/" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                    <a href="https://wa.me/573196988077" class="fa fa-whatsapp"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Johan Almeida</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
     
 
-                <div class="container mt-5 justify-content-center" >
-                    <form action="update.php" method="POST">
-                                
-                                <h3>DNI</h3> <input type="hidden" name="dni" value="<?php echo $row['dni']  ?>">
-                                
-                                <h5></h5><input type="text" class="form-control mb-3" name="dni" placeholder="Dni" value="<?php echo $row['dni']  ?>">
-                                <h6>Nombres</h6><input type="text" class="form-control mb-3" name="nombres" placeholder="Nombres" value="<?php echo $row['nombres']  ?>">
-                                <h6>Apellidos</h6><input type="text" class="form-control mb-3" name="apellidos" placeholder="Apellidos" value="<?php echo $row['apellidos']  ?>">
-                                <h6>Altura</h6><input type="text" class="form-control mb-3" name="altura" placeholder="Altura" value="<?php echo $row['altura']  ?>">
-                                <h6>Peso</h6><input type="text" class="form-control mb-3" name="peso" placeholder="Peso" value="<?php echo $row['peso']  ?>">
-                                <h6>Sexo</h6><input type="text" class="form-control mb-3" name="sexo" placeholder="Sexo" value="<?php echo $row['sexo']  ?>">
-                                <h6>Edad</h6><input type="text" class="form-control mb-3" name="edad" placeholder="Edad" value="<?php echo $row['edad']  ?>">
-                                <h6>Grado</h6><input type="text" class="form-control mb-3" name="grado" placeholder="Grado" value="<?php echo $row['grado']  ?>">
-                                <h6>Imc</h6><input type="text" class="form-control mb-3" name="imc" placeholder="Imc" value="<?php echo $row['imc']  ?>">
-                                
-                                
-                            <input type="submit" class="btn btn-primary btn-block" value="Actualizar">
-                    </form>
-                    
-                </div>
+                
+
     </body>
 </html>

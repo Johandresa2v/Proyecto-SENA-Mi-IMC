@@ -1,8 +1,6 @@
 
-1. video de etica.
-2. subir 3 actividad.
-3. Completar la 2 secciones de la pagina 
-4. mirar las 5 actividades pendientes 
+1. seccion de registro esta fea 
+edita en el css el estilo que le creaste 
 
 
 

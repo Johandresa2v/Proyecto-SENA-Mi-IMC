@@ -15,22 +15,17 @@
 
 /* video cabeza de pagina*/
 .video { 
-   
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
-  
     position: fixed;    
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%); 
-        
+    transform: translateX(-50%) translateY(-50%);  
     z-index: -100;
-      
     background-size: cover;
-  
-  }
+}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -40,7 +35,6 @@ body{
 
 header{
     padding: 50px;
-    
     text-align: center;
 }
 
@@ -127,6 +121,8 @@ nav ul li a:hover{
     width: 100%;
     color: white;
     text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .containercolorwhite{
@@ -188,6 +184,11 @@ y verticalmente con flexbox*/
     height: 450px auto;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.ingresartexto{
+    background-color: #1967b6;
+    
 }
 
 .imgsection{
